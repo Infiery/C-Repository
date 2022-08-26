@@ -1,0 +1,1478 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset162 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset162 Liberation Sans{\*\falt Arial};}{\f5\froman\fprq2\fcharset162 Cascadia Mono;}{\f6\fnil\fprq2\fcharset162 0;}{\f7\fnil\fprq2\fcharset162 Microsoft YaHei;}{\f8\fnil\fprq2\fcharset162 Arial;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red42\green96\blue153;\red163\green21\blue21;\red43\green145\blue175;}
+{\stylesheet{\s0\snext0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052 Normal;}
+{\s15\sbasedon0\snext16\rtlch\af8\afs28\alang1081 \ltrch\lang1033\langfe2052\hich\af4\loch\ql\nowidctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf0\f4\fs28\lang1033\kerning1\dbch\af7\langfe2052 Heading;}
+{\s16\sbasedon0\snext16\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\sl276\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052 Text Body;}
+{\s17\sbasedon16\snext17\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\sl276\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052 List;}
+{\s18\sbasedon0\snext18\rtlch\af8\afs24\alang1081\ai \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf0\f3\fs24\lang1033\i\kerning1\dbch\af6\langfe2052 Caption;}
+{\s19\sbasedon0\snext19\rtlch\af8\afs24\alang255 \ltrch\lang255\langfe255\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang255\kerning1\dbch\af6\langfe255 Index;}
+}{\*\generator LibreOffice/7.3.4.2$Windows_X86_64 LibreOffice_project/728fec16bd5f605073805c3c9e7c4212a0120dc5}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2022\mo8\dy2\hr5\min26}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab709
+\hyphauto1\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Page Style;}}
+\formshade\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\pgndec\sftnnar\saftnnrlc\sectunlocked1\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+\tab \tab \tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs40\f5\loch
+Static Arrays}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+// values already given to static array in creation}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ [] StaticArray = \{ 1,2,3,4 \}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+// for not giving value to the indexes of the array whilst creating it;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] NoValueStaticArray = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[4];}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf17\fs40\f5\loch
+Methods}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf17\fs40\f5\loch
+\tab  }{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ SayHi(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ Name , int Age)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Hello "}{\hich\af5\loch\cf1\fs19\f5\loch
+ + Name + Age);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ Main(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+[] args)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+SayHi(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Salih", 17}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab   }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ Addition(}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ num1, }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ num2)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ result = 0;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+result = num1 + num2;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ result;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ Main(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+[] args)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"The first number: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ num = Convert.ToInt16(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"The second number: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ num3 = Convert.ToInt16(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(Addition(num,num3));}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab       }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Calculator}{\hich\af5\loch\cf1\fs19\f5\loch
+\tab }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] TakeNumbers()}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"How many numbers do you want to process? : "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ NumAmount = Convert.ToInt32(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] StaticArray = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[NumAmount];}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+for}{\hich\af5\loch\cf1\fs19\f5\loch
+ (}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 0; i < NumAmount; i++)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine((i+1) + }{\hich\af5\loch\cf18\fs19\f5\loch
+". Number : "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+StaticArray[i] = Convert.ToInt32(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ StaticArray;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ Main(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+[] args)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ result = 0; }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Which operation do you want to do? (+,-,*,/) : "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ op = Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (op == }{\hich\af5\loch\cf18\fs19\f5\loch
+"+"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] StaticArray = TakeNumbers();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+for}{\hich\af5\loch\cf1\fs19\f5\loch
+ (}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 0; i < StaticArray.Length; i++)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+result = result + StaticArray[i];}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(result);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (op == }{\hich\af5\loch\cf18\fs19\f5\loch
+"-"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] StaticArray = TakeNumbers();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+result = StaticArray[0];}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+for}{\hich\af5\loch\cf1\fs19\f5\loch
+ (}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 0; i < StaticArray.Length; i++)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (i == (StaticArray.Length - 1))}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                        }{\hich\af5\loch\cf2\fs19\f5\loch
+goto}{\hich\af5\loch\cf1\fs19\f5\loch
+ Last;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+result = result - StaticArray[i+1];}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(result);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (op == }{\hich\af5\loch\cf18\fs19\f5\loch
+"*"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] StaticArray = TakeNumbers();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+result = (StaticArray[0] * StaticArray[1]);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(result);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (op == }{\hich\af5\loch\cf18\fs19\f5\loch
+"/"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+[] StaticArray = TakeNumbers();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+result = (StaticArray[0] / StaticArray[1]);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(result);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Please input a valid operator."}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Last:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab \tab }{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+While Loop}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 1;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+while}{\hich\af5\loch\cf1\fs19\f5\loch
+ (i <= 5)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(i);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+i++;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab    }{\rtlch\afs26 \ltrch\hich\af5\loch\cf1\fs26\f5\loch
+Do}{\hich\af5\loch\cf1\fs19\f5\loch
+\tab }{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+While Loop}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 6;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+do}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(i);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+i++;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\} }{\hich\af5\loch\cf2\fs19\f5\loch
+while}{\hich\af5\loch\cf1\fs19\f5\loch
+ (i <= 5);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+\tab }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+\tab \tab \tab \tab Guessing Game}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ SecretWord = }{\hich\af5\loch\cf18\fs19\f5\loch
+"yes"}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ Guess = }{\hich\af5\loch\cf18\fs19\f5\loch
+""}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ GuessCount = 0;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ GuessLimit = 3;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+bool}{\hich\af5\loch\cf1\fs19\f5\loch
+ OutOfGuesses = }{\hich\af5\loch\cf2\fs19\f5\loch
+false}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+while}{\hich\af5\loch\cf1\fs19\f5\loch
+ (Guess != SecretWord && !OutOfGuesses)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (GuessCount < GuessLimit)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Make A Guess: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+Guess = Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+GuessCount++;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+else}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+OutOfGuesses = }{\hich\af5\loch\cf2\fs19\f5\loch
+true}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (OutOfGuesses)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"You lost!"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"You win!"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+\tab \tab \tab \tab \tab Taking power}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs28 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ Takepower(}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ Base , }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ power)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ result = 1;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+for}{\hich\af5\loch\cf1\fs19\f5\loch
+(}{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ i = 1; i<=power; i++)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+result = result * Base;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ result;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ Main(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+[] args)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Write the base number: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ Base = Convert.ToInt32(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Write the power: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ power = Convert.ToInt32(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+           }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(Takepower(Base, power));}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab }{\rtlch\afs28 \ltrch\hich\af5\loch\cf1\fs28\f5\loch
+Exception Handling}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs16 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+start:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+try}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Input first number: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+double}{\hich\af5\loch\cf1\fs19\f5\loch
+ num1 = Convert.ToDouble(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Input second number: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+double}{\hich\af5\loch\cf1\fs19\f5\loch
+ num2 = Convert.ToDouble(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(num1 / num2);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+catch}{\hich\af5\loch\cf1\fs19\f5\loch
+ (DivideByZeroException )}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"you cant divide something with zero dumbass"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+goto}{\hich\af5\loch\cf1\fs19\f5\loch
+ start;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+catch}{\hich\af5\loch\cf1\fs19\f5\loch
+ (FormatException )}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"input a fucking integer bruh daaamn"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+goto}{\hich\af5\loch\cf1\fs19\f5\loch
+ start;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs16 \ltrch\hich\af5\loch\cf1\fs19\f5
+            }{\rtlch\afs16 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs16 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs16 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Class}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Main:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+try}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Input a title: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ title = Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Input a author: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ author = Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Input page count: "}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ pages = Convert.ToInt16(Console.ReadLine());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Book book1 = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ Book(title, author, pages);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+YesOrNoCheck:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ PrintOut = Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (PrintOut == }{\hich\af5\loch\cf18\fs19\f5\loch
+"y"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(title + }{\hich\af5\loch\cf18\fs19\f5\loch
+"\\n"}{\hich\af5\loch\cf1\fs19\f5\loch
+ + author + }{\hich\af5\loch\cf18\fs19\f5\loch
+"\\n"}{\hich\af5\loch\cf1\fs19\f5\loch
+ + pages);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (PrintOut == }{\hich\af5\loch\cf18\fs19\f5\loch
+"n"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+else}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.Write(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Invalid input, try again please: \\n Do you want to print its details? (y for yes, n for no)"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf2\fs19\f5\loch
+goto}{\hich\af5\loch\cf1\fs19\f5\loch
+ YesOrNoCheck;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+catch}{\hich\af5\loch\cf1\fs19\f5\loch
+ (Exception e)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(e.Message);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab Class:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+class}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Book}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ title;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ author;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ pages;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Book}{\hich\af5\loch\cf1\fs19\f5\loch
+(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aTitle, }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aAuthor, }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ aPages)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+title = aTitle;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+author = aAuthor;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+pages = aPages;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Book is Constructed. Do you want to print its details? (y for yes, n for no)"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab \tab \tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Object Methods}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Main:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+Student student1 = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ Student(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Jim"}{\hich\af5\loch\cf1\fs19\f5\loch
+,}{\hich\af5\loch\cf18\fs19\f5\loch
+"Business"}{\hich\af5\loch\cf1\fs19\f5\loch
+,1);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Student student2 = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ Student(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Pam"}{\hich\af5\loch\cf1\fs19\f5\loch
+,}{\hich\af5\loch\cf18\fs19\f5\loch
+"ArT"}{\hich\af5\loch\cf1\fs19\f5\loch
+,4.2);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(student1.HasHonors());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(student2.HasHonors());}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadLine();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Class:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+class}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Student}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ name;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ major;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+double}{\hich\af5\loch\cf1\fs19\f5\loch
+ gpa;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Student}{\hich\af5\loch\cf1\fs19\f5\loch
+(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aName, }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aMajor, }{\hich\af5\loch\cf2\fs19\f5\loch
+double}{\hich\af5\loch\cf1\fs19\f5\loch
+ aGpa)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+name = aName;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+major = aMajor;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+gpa = aGpa;           }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+bool}{\hich\af5\loch\cf1\fs19\f5\loch
+ HasHonors()}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (gpa >= 3.5)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+true}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+false}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Getters & Setters}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Main:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+Movies movie1 = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ Movies(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Fight Club"}{\hich\af5\loch\cf1\fs19\f5\loch
+,}{\hich\af5\loch\cf18\fs19\f5\loch
+"David Fincher"}{\hich\af5\loch\cf1\fs19\f5\loch
+,}{\hich\af5\loch\cf18\fs19\f5\loch
+"PG18dasd"}{\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(movie1.Rating);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Class:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\hich\af5\loch\cf2\fs19\f5\loch
+class}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Movies}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ title;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ director;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+private}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ rating;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Movies}{\hich\af5\loch\cf1\fs19\f5\loch
+(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aTitle, }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aDirector, }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aRating)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+title = aTitle;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+director = aDirector;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Rating = aRating;  }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ Rating}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+get}{\hich\af5\loch\cf1\fs19\f5\loch
+ \{ }{\hich\af5\loch\cf2\fs19\f5\loch
+return}{\hich\af5\loch\cf1\fs19\f5\loch
+ rating; \}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf2\fs19\f5\loch
+set}{\hich\af5\loch\cf1\fs19\f5\loch
+ \{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+if}{\hich\af5\loch\cf1\fs19\f5\loch
+ (value == }{\hich\af5\loch\cf18\fs19\f5\loch
+"PG13"}{\hich\af5\loch\cf1\fs19\f5\loch
+ || value == }{\hich\af5\loch\cf18\fs19\f5\loch
+"PG18"}{\hich\af5\loch\cf1\fs19\f5\loch
+)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                    }{\hich\af5\loch\cf1\fs19\f5\loch
+rating = value;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+                }{\hich\af5\loch\cf2\fs19\f5\loch
+else}{\hich\af5\loch\cf1\fs19\f5\loch
+ rating = }{\hich\af5\loch\cf18\fs19\f5\loch
+"Wrong rating"}{\hich\af5\loch\cf1\fs19\f5\loch
+;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5
+    }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Static Class Attributes}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Main:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\hich\af5\loch\cf1\fs19\f5\loch
+ Song cevizagaci = }{\hich\af5\loch\cf2\fs19\f5\loch
+new}{\hich\af5\loch\cf1\fs19\f5\loch
+ Song(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Ceviz A\u287\'f0ac\u305\'fd"}{\hich\af5\loch\cf1\fs19\f5\loch
+, }{\hich\af5\loch\cf18\fs19\f5\loch
+"Cem Karaca"}{\hich\af5\loch\cf1\fs19\f5\loch
+, 500);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5
+            }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+Song aynalikemer = }{\rtlch\afs40 \ltrch\hich\af5\loch\cf2\fs19\f5\loch
+new}{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+ Song(}{\rtlch\afs40 \ltrch\hich\af5\loch\cf18\fs19\f5\loch
+"Aynal\u305\'fd Kemer"}{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+, }{\rtlch\afs40 \ltrch\hich\af5\loch\cf18\fs19\f5\loch
+"Bar\u305\'fd\u351\'fe Man\u231\'e7o"}{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+, 330);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Class:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\hich\af5\loch\cf2\fs19\f5\loch
+class}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Song}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ title;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ artist;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ duration;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ SongCount;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+Song}{\hich\af5\loch\cf1\fs19\f5\loch
+(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aTitle, }{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ aArtist, }{\hich\af5\loch\cf2\fs19\f5\loch
+int}{\hich\af5\loch\cf1\fs19\f5\loch
+ aDuration)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+title = aTitle;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+artist = aArtist;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+duration = aDuration;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+SongCount++;}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5
+    }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\tab \tab \tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Static Methods & Classes}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Main:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+UsefulTools.Sayhi(}{\rtlch\afs40 \ltrch\hich\af5\loch\cf18\fs19\f5\loch
+"salih"}{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\hich\af5\loch\cf1\fs19\f5\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5
+            }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+Console.ReadKey();}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+Class:}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+class}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf19\fs19\f5\loch
+UsefulTools}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+    }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf2\fs19\f5\loch
+public}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+static}{\hich\af5\loch\cf1\fs19\f5\loch
+ }{\hich\af5\loch\cf2\fs19\f5\loch
+void}{\hich\af5\loch\cf1\fs19\f5\loch
+ Sayhi(}{\hich\af5\loch\cf2\fs19\f5\loch
+string}{\hich\af5\loch\cf1\fs19\f5\loch
+ name)}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\{}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+            }{\hich\af5\loch\cf1\fs19\f5\loch
+Console.WriteLine(}{\hich\af5\loch\cf18\fs19\f5\loch
+"Hello"}{\hich\af5\loch\cf1\fs19\f5\loch
+ + name);}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\hich\af5\loch\cf1\fs19\f5
+        }{\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5
+    }{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs19\f5\loch
+\}}
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052{\rtlch\afs40 \ltrch\hich\af5\loch\cf1\fs40\f5\loch
+\tab }{\hich\af5\loch\cf1\fs19\f5\loch
+ }
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par \pard\plain \s0\rtlch\af8\afs24\alang1081 \ltrch\lang1033\langfe2052\hich\af3\loch\ql\nowidctlpar\hyphpar0\ltrpar\cf0\f3\fs24\lang1033\kerning1\dbch\af6\langfe2052\rtlch\afs40 \ltrch\loch\fs40\loch
+
+\par }
