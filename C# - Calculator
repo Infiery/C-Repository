@@ -1,0 +1,74 @@
+static int[] TakeNumbers()
+        {
+
+            Console.Write("How many numbers do you want to process? : ");
+            int NumAmount = Convert.ToInt32(Console.ReadLine());
+            int[] StaticArray = new int[NumAmount];
+            for (int i = 0; i < NumAmount; i++)
+            {
+                Console.WriteLine((i+1) + ". Number : ");
+                StaticArray[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            
+            
+            return StaticArray;
+        }
+        
+        static void Main(string[] args)
+        {
+            
+            int result = 0; 
+            Console.WriteLine("Which operation do you want to do? (+,-,*,/) : ");
+            string op = Console.ReadLine();
+            
+
+            if (op == "+")
+            {
+                int[] StaticArray = TakeNumbers();
+                for (int i = 0; i < StaticArray.Length; i++)
+                {
+                    result = result + StaticArray[i];
+                }
+                Console.Write(result);
+
+            }
+            else if (op == "-")
+            {
+                int[] StaticArray = TakeNumbers();
+                result = StaticArray[0];
+                for (int i = 0; i < StaticArray.Length; i++)
+                {
+                    if (i == (StaticArray.Length - 1))
+                    {
+                        goto Last;
+                    }
+                    result = result - StaticArray[i+1];
+                    
+                    
+
+                }
+                Console.Write(result);
+            }
+            else if (op == "*")
+            {
+                int[] StaticArray = TakeNumbers();
+                result = (StaticArray[0] * StaticArray[1]);
+                Console.Write(result);
+            }
+            
+            else if (op == "/")
+            {
+                int[] StaticArray = TakeNumbers();
+                result = (StaticArray[0] / StaticArray[1]);
+                Console.Write(result);
+            }
+            else
+            {
+                Console.Write("Please input a valid operator.");
+            }
+            Last:
+            
+            Console.ReadKey();
+
+
+        }
