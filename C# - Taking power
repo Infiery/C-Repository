@@ -1,0 +1,25 @@
+static int Takepower(int Base , int power)
+        {
+            int result = 1;
+            
+            for(int i = 1; i<=power; i++)
+            {
+                result = result * Base;
+            }
+
+            
+            return result;
+        }
+        
+        
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Write the base number: ");
+            int Base = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Write the power: ");
+            int power = Convert.ToInt32(Console.ReadLine());
+           Console.Write(Takepower(Base, power));
+
+            Console.ReadKey();
+        }
