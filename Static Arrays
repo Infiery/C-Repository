@@ -1,0 +1,6 @@
+//for  values already given to static array in creation
+int [] StaticArray = { 1,2,3,4 }
+
+
+// for not giving value to the indexes of the array whilst creating it;
+int[] NoValueStaticArray = new int[4];
