@@ -1,0 +1,33 @@
+Main:
+	Student student1 = new Student("Jim","Business",1);
+            Student student2 = new Student("Pam","ArT",4.2);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+            Console.ReadLine();
+Class:
+	class Student
+    {
+        public string name;
+        public string major;
+        public double gpa;
+
+        public Student(string aName, string aMajor, double aGpa)
+        {
+            name = aName;
+            major = aMajor;
+            gpa = aGpa;           
+        }
+        public bool HasHonors()
+        {
+            if (gpa >= 3.5)
+            {
+                return true;
+
+            }
+            else return false;
+
+        }
+        
+        
+    }
