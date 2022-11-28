@@ -1,0 +1,54 @@
+Main:
+
+	try
+            {
+                Console.Write("Input a title: ");
+                string title = Console.ReadLine();
+                Console.Write("Input a author: ");
+                string author = Console.ReadLine();
+                Console.Write("Input page count: ");
+                int pages = Convert.ToInt16(Console.ReadLine());
+
+
+                Book book1 = new Book(title, author, pages);
+            YesOrNoCheck:
+                string PrintOut = Console.ReadLine();
+                if (PrintOut == "y")
+                {
+                    Console.Write(title + "\n" + author + "\n" + pages);
+                }
+                else if (PrintOut == "n")
+                {
+
+                }
+                else
+                {
+                    Console.Write("Invalid input, try again please: \n Do you want to print its details? (y for yes, n for no)");
+                    goto YesOrNoCheck;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            Console.ReadLine();
+
+	Class:
+class Book
+    {
+        public string title;
+        public string author;
+        public int pages;
+
+        public Book(string aTitle, string aAuthor, int aPages)
+
+        {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+            Console.WriteLine("Book is Constructed. Do you want to print its details? (y for yes, n for no)");
+        }
+            
+
+    }
