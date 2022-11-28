@@ -1,0 +1,41 @@
+ static void SayHi(string Name , int Age)
+        {
+            Console.WriteLine("Hello " + Name + Age);
+            
+        }
+
+
+        static void Main(string[] args)
+        {
+
+            
+
+            SayHi("Salih", 17);
+
+            Console.ReadKey();
+        }
+
+
+
+
+	  static int Addition(int num1, int num2)
+        {
+            int result = 0;
+            
+            result = num1 + num2;
+            return result;
+        }
+        static void Main(string[] args)
+        {
+
+            Console.Write("The first number: ");
+            int num = Convert.ToInt16(Console.ReadLine());
+            Console.Write("The second number: ");
+            int num3 = Convert.ToInt16(Console.ReadLine());
+
+
+
+            Console.Write(Addition(num,num3));
+
+            Console.ReadKey();
+        }
