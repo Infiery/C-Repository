@@ -1,0 +1,33 @@
+Main:
+	Movies movie1 = new Movies("Fight Club","David Fincher","PG18dasd");
+
+
+            Console.WriteLine(movie1.Rating);
+
+
+            Console.ReadKey();
+
+
+Class:
+	class Movies
+    {
+        public string title;
+        public string director;
+        private string rating;
+
+        public Movies(string aTitle, string aDirector, string aRating)
+        {
+            title = aTitle;
+            director = aDirector;
+            Rating = aRating;  
+        }
+        public string Rating
+        {
+            get { return rating; }
+            set {
+                if (value == "PG13" || value == "PG18")
+                    rating = value;
+                else rating = "Wrong rating";
+            }
+        }
+    }
