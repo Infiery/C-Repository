@@ -1,1 +1,27 @@
+string SecretWord = "yes";
+            string Guess = "";
+            int GuessCount = 0;
+            int GuessLimit = 3;
+            bool OutOfGuesses = false;
+            while (Guess != SecretWord && !OutOfGuesses)
+            {
+                if (GuessCount < GuessLimit)
+                {
+                    Console.WriteLine("Make A Guess: ");
+                    Guess = Console.ReadLine();
+                    GuessCount++;
+                }
+                else
+                {
+                    OutOfGuesses = true;
+                }
 
+            }
+            if (OutOfGuesses)
+            {
+                Console.Write("You lost!");
+            }
+            else
+            {
+                Console.Write("You win!");
+            }
